@@ -1,1 +1,4 @@
 # thewings
+
+Đến với cuộc thi Risk Solution, đội The Wings xin giới thiệu công cụ kiểm tra bảo mật website và hệ thống chỉ với một vài thao tác đơn giản, tự động kiểm lỗi cấu hình server, các lỗi tồn tại trong web application như SQL injection, cross-site scripting (XSS), local file inclusion/remote file inclusion, … và các lỗi CVE hiện nay. Ngoài ra công cụ còn cung cấp hệ thống đánh giá điểm đối với các nguy cơ bảo mật trong ứng dụng web và máy chủ của bạn, từ đó đưa ra những giải pháp phù hợp cho người dùng. Công cụ thích hợp cho tất cả mọi người, đặc biệt là đối với các cơ quan hành chính công vì tính tiện dụng cũng như khả năng dễ sử dụng của nó.
+Công cụ ra đời dựa trên nhu cầu thiết yếu của các tổ chức là muốn kiểm tra xem các hệ thống của mình đang vận hành có thực sự an toàn hay không nhưng lại không đủ nguồn lực cũng như thời gian để hoàn thành việc đó. Giải pháp này sẽ góp phần giải quyết được vấn đề.
