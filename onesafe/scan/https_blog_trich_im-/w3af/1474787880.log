@@ -1,0 +1,58 @@
+[34mw3af>>> [0mhttp-settings
+[34mw3af/config:http-settings>>> [0mset timeout 10
+[34mw3af/config:http-settings>>> [0mback
+The configuration has been saved.
+[34mw3af>>> [0mmisc-settings
+[34mw3af/config:misc-settings>>> [0mset max_discovery_time 20
+[34mw3af/config:misc-settings>>> [0mset fuzz_url_parts True
+[34mw3af/config:misc-settings>>> [0mset fuzz_url_filenames True
+[34mw3af/config:misc-settings>>> [0mback
+The configuration has been saved.
+[34mw3af>>> [0mplugins
+[34mw3af/plugins>>> [0mcrawl web_spider
+[34mw3af/plugins>>> [0mcrawl config web_spider
+[34mw3af/plugins/crawl/config:web_spider>>> [0mset only_forward True
+[34mw3af/plugins/crawl/config:web_spider>>> [0mset ignore_regex .*(logout|disconnect|signout|exit).*
+[34mw3af/plugins/crawl/config:web_spider>>> [0mback
+The configuration has been saved.
+[34mw3af/plugins>>> [0moutput console
+[34mw3af/plugins>>> [0moutput config console
+[34mw3af/plugins/output/config:console>>> [0mset verbose False
+[34mw3af/plugins/output/config:console>>> [0mback
+The configuration has been saved.
+[34mw3af/plugins>>> [0mback
+[34mw3af>>> [0mtarget
+[34mw3af/config:target>>> [0mset target https://blog.trich.im/
+[34mw3af/config:target>>> [0mback
+The configuration has been saved.
+[34mw3af>>> [0mcleanup
+[34mw3af>>> [0mstart
+New URL found by web_spider plugin: "https://blog.trich.im/wp-content/plugins/add-to-any/addtoany.min.css"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-content/themes/ninja-shadow/assets/css/base.css"
+New URL found by web_spider plugin: "https://blog.trich.im/xmlrpc.php"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-json/"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/serverside/"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/vm/"
+New URL found by web_spider plugin: "https://blog.trich.im/plaidctf-reversing/"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/matesctf/"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/hello/"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-comments-post.php"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/pwnable-kr/"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/csaw/"
+New URL found by web_spider plugin: "https://blog.trich.im/wh-contest-9-pwn400/"
+New URL found by web_spider plugin: "https://blog.trich.im/matesctf-qual-4-re-web-payload/"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-content/plugins/crayon-syntax-highlighter/themes/classic/classic.css"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/fmt/"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-includes/js/jquery/jquery.js"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/rop/"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/flask/"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/ppp/"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-content/themes/ninja-shadow/assets/css/theme-style.css"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/ruby/"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/whitehat/"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css"
+New URL found by web_spider plugin: "https://blog.trich.im/author/trichimtrich/"
+New URL found by web_spider plugin: "https://blog.trich.im/csaw-2015-unpwn-script-only/"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-content/themes/ninja-shadow/assets/css/custom.css"
+New URL found by web_spider plugin: "https://blog.trich.im/wp-content/plugins/add-to-any/icons/facebook.png"
+New URL found by web_spider plugin: "https://blog.trich.im/tag/bashfuck/"

@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/img/favicon.png">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<style>
+.currentscan {
+  display:inline-block; border-radius: 50%; border-style:solid; border-width:3px; width:200px; height:200px; border-color:Gainsboro;
+  text-align: center;
+}
+
+.currentscandiv {
+  display:block;
+  margin-top: 70px;
+  font-size: 40px;
+}
+
+
+</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">One Safe System</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="/scan">Scanning<span class="sr-only">(current)</span></a></li>
+            <li><a href="/scanhistory">History</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">More...</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="/agenthistory">Notification</a></li>
+            <li><a href="/agenthistory">Log Detail</a></li>
+            <li><a href="/agenthistory">Agent Management</a></li>
+            <li><a href="">Update version</a></li>
+            <li><a href="">More...</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Active Response</a></li>
+            <li><a href="">License</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="alert alert-info" role="alert">{{ msg }}</div>
+          <div id="tabcurrentscan" style="display:none">
+          <h1 class="page-header">Current scan - <span id="namecurrentscan"></h1>
+
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <div style="background-color:#4285F4" class="currentscan img-responsive"><div id="percentcert" class="currentscandiv">0%</div></div>
+              <h4>SSL/TLS<img id="iconcert" src="static/img/Preloader_21.gif" width=64 height=64></h4>
+              <a href="/scan/current?type=cert" target="_blank"  id="buttoncert" class="btn btn-success" style="display:none">More</a>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <div style="background-color:#EA4335" class="currentscan img-responsive"><div id="percentfierce" class="currentscandiv">0%</div></div>
+              <h4>DNS<img id="iconfierce" src="static/img/Preloader_21.gif" width=64 height=64></h4>
+              <a href="/scan/current?type=fierce" target="_blank" id="buttonfierce" class="btn btn-success" style="display:none">More</a>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <div style="background-color:orange" class="currentscan img-responsive"><div id="percentnikto" class="currentscandiv">0%</div></div>
+              <h4>Server Info<img id="iconnikto" src="static/img/Preloader_21.gif" width=64 height=64></h4>
+              <a href="/scan/current?type=nikto" target="_blank"  id="buttonnikto" class="btn btn-success" style="display:none">More</a>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <div style="background-color:#34A853" class="currentscan img-responsive"><div id="percentw3af" class="currentscandiv">0%</div></div>
+              <h4>Vulnerabilities<img id="iconw3af" src="static/img/Preloader_21.gif" width=64 height=64></h4>
+              <a href="/scan/current?type=w3af" target="_blank"  id="buttonw3af" class="btn btn-success" style="display:none">More</a>
+            </div>
+          </div>
+          </div>
+
+          <h2 class="sub-header">New scan</h2>
+          <form action="" method="post">
+            <div class="input-group">
+              <input type="text" class="form-control" name="host" placeholder="http://checkme.pls" value="http://10.0.0.139/">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">Go!</button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+<div class="modal fade mypopup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="cert-table">
+        <div class="cert-header">
+          Cert ABC<br>
+        </div>
+        <div class="cert-tb-row"> 
+          <dir class="cert-lable">lable</dir>
+          <dir class="cert-content">content</dir>
+        </div>
+        <div class="cert-tb-row"> 
+          <dir class="cert-lable">lable</dir>
+          
+
+        </div>
+        <div class="cert-tb-row">
+          <div class="cert-lable" style="height:200px">CERT</div>
+          <dir class="cert-content">
+            <dir class="ct-raw">
+              <div class="ct-lb">lb</div>
+              <div class="ct-ct">ct</div>
+            </dir>
+          </dir>
+        </div>
+      
+    </div>
+</div>
+
+      
+<style>
+.modal {
+    padding-right: 0px;
+    background-color: rgba(4, 4, 4, 0.8); 
+    }
+               
+.cert-table
+{
+  display: block;
+  background-color: white;
+  margin-top:100px;
+  margin-left:400px; 
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+.cert-header{
+  background-color: #34A853;
+  text-align: center;
+  width: 100%;
+  font-size:20px;
+}
+.cert-tb-rower{
+  width: 100%;
+}
+.cert-lable{
+  display: inline-block;
+  border-right: 1px solid black;
+  text-align:center;
+  height: 100%;
+  color: black;
+  font-size: 17px;
+  margin-top: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  
+  width: 29%;
+}
+.cert-content{
+  padding: 0px;
+  color: black;
+  font-size: 17px;
+  margin-top: 10px;
+  text-align: center ;
+  border-bottom: 1px solid #f0f0f0;
+  display: inline-block;
+  width: 70%;
+}
+.ct-raw{
+  background-color: gray;
+  width:100%;
+}
+.ct-lb{
+  border-right: 1px solid black;
+  display:inline-block;
+  width:38%;
+}
+.ct-ct{
+  display:inline-block;
+  width:60%;
+}
+
+</style>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="static/js/holder.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+
+    $(document).ready(function (){
+
+      var hostname = getCookie('host');
+      if (hostname!="")
+      {
+        $("#namecurrentscan").html(hostname)
+        $("#tabcurrentscan").fadeIn(500);
+
+        hostname = hostname.substring(1);
+        hostname = hostname.substring(0, hostname.length-1);
+
+        if (hostname.substring(0, 7) == 'http://')
+        {
+          $("#iconcert").attr('src', 'static/img/Notice_icon.png');
+          $("#percentcert").html("100%");
+        }
+        else {
+          var perCert = 0;
+          var timerperCert = setInterval(function () {
+            if (perCert<99) perCert++;
+            $("#percentcert").html(perCert.toString() + "%");
+          }, 500);
+          var timerCert = setInterval(function(){
+            $.ajax({
+            url: "/scan/current?type=cert", 
+            success: function(data){
+              if (data!="Running")
+              {
+
+                $("#iconcert").fadeOut(1000, function ()
+                {
+                  $(this).attr('src', 'static/img/tick.png');
+                  $(this).fadeIn();
+                  $("#buttoncert").attr("href", "/scan/cert?id=-1&host=" + hostname);
+                  $("#buttoncert").fadeIn();
+                });
+                clearInterval(timerCert);
+                clearInterval(timerperCert);
+                if (data.length<=2) data = "00A";
+                $("#percentcert").html(data[2]);
+              }
+              //alert(data);
+            }
+          }); }, 2000);
+        }
+
+
+        var perNikto = 0;
+        var timerperNikto = setInterval(function () {
+          if (perNikto<99) perNikto++;
+          $("#percentnikto").html(perNikto.toString() + "%");
+        }, 700);
+        var timerNikto = setInterval(function(){
+          $.ajax({
+          url: "/scan/current?type=nikto", 
+          success: function(data){
+            if (data!="Running")
+            {
+              $("#iconnikto").fadeOut(1000, function ()
+              {
+                $(this).attr('src', 'static/img/tick.png');
+                $(this).fadeIn();
+                $("#buttonnikto").attr("href", "/scan/nikto?id=-1&host=" + hostname);
+                $("#buttonnikto").fadeIn();
+              });
+              clearInterval(timerNikto);
+              clearInterval(timerperNikto);
+              if (data.length<=2) data = "00A";
+              $("#percentnikto").html(data[2]);
+            }
+            //alert(data);
+          }
+        }); }, 2000);
+
+
+        var perFie = 0;
+        var timerperFie = setInterval(function () {
+          if (perFie<99) perFie++;
+          $("#percentfierce").html(perFie.toString() + "%");
+        }, 300);
+        var timerFierce = setInterval(function(){
+          $.ajax({
+          url: "/scan/current?type=fierce", 
+          success: function(data){
+            if (data!="Running")
+            {
+              $("#iconfierce").fadeOut(1000, function ()
+              {
+                $(this).attr('src', 'static/img/tick.png');
+                $(this).fadeIn();
+                $("#buttonfierce").attr("href", "/scan/fierce?id=-1&host=" + hostname);
+                $("#buttonfierce").fadeIn();
+              });
+              clearInterval(timerFierce);
+              clearInterval(timerperFie);
+              if (data.length<=2) data = "00A";
+              $("#percentfierce").html(data[2]);
+            }
+            //alert(data);
+          }
+        }); }, 2000);
+
+        var perW3af = 0;
+        var timerperW3af = setInterval(function () {
+          if (perW3af<99) perW3af++;
+          $("#percentw3af").html(perW3af.toString() + "%");
+        }, 300);
+        var timerW3af = setInterval(function(){
+          $.ajax({
+          url: "/scan/current?type=w3af", 
+          success: function(data){
+            if (data!="Running")
+            {
+              $("#iconw3af").fadeOut(1000, function ()
+              {
+                $(this).attr('src', 'static/img/tick.png');
+                $(this).fadeIn();
+                $("#buttonw3af").attr("href", "/scan/w3af?id=-1&host=" + hostname);
+                $("#buttonw3af").fadeIn();
+              });
+              clearInterval(timerW3af);
+              clearInterval(timerperW3af);
+              $("#percentw3af").html("A");
+            }
+            //alert(data);
+          }
+        }); }, 2000);
+
+        
+
+
+      }
+
+
+    });
+    </script>
+      
+  </body>
+</html>

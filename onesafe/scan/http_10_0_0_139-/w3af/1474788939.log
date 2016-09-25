@@ -1,0 +1,633 @@
+[34mw3af>>> [0mhttp-settings
+[34mw3af/config:http-settings>>> [0mset timeout 10
+[34mw3af/config:http-settings>>> [0mback
+The configuration has been saved.
+[34mw3af>>> [0mmisc-settings
+[34mw3af/config:misc-settings>>> [0mset max_discovery_time 20
+[34mw3af/config:misc-settings>>> [0mset fuzz_url_parts True
+[34mw3af/config:misc-settings>>> [0mset fuzz_url_filenames True
+[34mw3af/config:misc-settings>>> [0mback
+The configuration has been saved.
+[34mw3af>>> [0mplugins
+[34mw3af/plugins>>> [0mcrawl web_spider
+[34mw3af/plugins>>> [0mcrawl config web_spider
+[34mw3af/plugins/crawl/config:web_spider>>> [0mset only_forward True
+[34mw3af/plugins/crawl/config:web_spider>>> [0mset ignore_regex .*(logout|disconnect|signout|exit).*
+[34mw3af/plugins/crawl/config:web_spider>>> [0mback
+The configuration has been saved.
+[34mw3af/plugins>>> [0moutput console
+[34mw3af/plugins>>> [0moutput config console
+[34mw3af/plugins/output/config:console>>> [0mset verbose False
+[34mw3af/plugins/output/config:console>>> [0mback
+The configuration has been saved.
+[34mw3af/plugins>>> [0mback
+[34mw3af>>> [0mtarget
+[34mw3af/config:target>>> [0mset target http://10.0.0.139/
+[34mw3af/config:target>>> [0mback
+The configuration has been saved.
+[34mw3af>>> [0mcleanup
+[34mw3af>>> [0mstart
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/"
+New URL found by web_spider plugin: "http://10.0.0.139/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/images/favicon.png"
+New URL found by web_spider plugin: "http://10.0.0.139/applications.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/index.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/howto.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/images/bitnami-xampp.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/stylesheets/all.css"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/javascripts/all.js"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/images/fastly-logo.png"
+New URL found by web_spider plugin: "http://10.0.0.139/phpmyadmin/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/faq.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/stylesheets/normalize.css"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/javascripts/modernizr.js"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/images/xampp-logo.svg"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/phpinfo.php"
+New URL found by web_spider plugin: "http://10.0.0.139/bitnami.css"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/stylesheets/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/troubleshoot-apache.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-php-fcgi.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/deploy-git-app.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/activate-use-xdebug.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/backup-restore-mysql.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-different-php-version.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/install-wordpress.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/javascripts/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/configure-vhosts.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/access-phpmyadmin-remotely.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/transfer-files-ftp.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-sqlite.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/create-framework-project-zf1.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/images/screenshots/xampp-windows-start.jpg"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/reset-mysql-password.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/send-mail.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/create-framework-project-zf2.html"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-php-fcgi.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/stylesheets/asciidoctor.css"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/use-php-fcgi/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/stylesheets/all-rtl.css"
+New URL found by web_spider plugin: "http://10.0.0.139/icons/blank.gif"
+New URL found by web_spider plugin: "http://10.0.0.139/icons/back.gif"
+New URL found by web_spider plugin: "http://10.0.0.139/icons/text.gif"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/troubleshoot-apache.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image5.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image6.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image4.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image8.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image7.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/deploy-git-app.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/deploy-git-app/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/deploy-git-app/image6.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/deploy-git-app/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image4.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/deploy-git-app/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/deploy-git-app/image4.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/deploy-git-app/image5.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/activate-use-xdebug.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-different-php-version.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/use-different-php-version/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/backup-restore-mysql.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image12.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image6.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image8.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image5.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image4.png"
+New URL found by web_spider plugin: "http://10.0.0.139/icons/unknown.gif"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image7.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image10.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image13.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image11.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image9.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image14.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/access-phpmyadmin-remotely.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/access-phpmyadmin-remotely/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/install-wordpress.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image31.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image35.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image19.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image14.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image13.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image33.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image37.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image36.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image17.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image21.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image16.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image15.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-sqlite.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image23.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image34.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image02.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image11.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image22.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image12.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/use-sqlite/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/use-sqlite/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image110.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image18.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/use-sqlite/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image24.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image32.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image01.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/send-mail.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/send-mail/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/send-mail/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/send-mail/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/configure-vhosts.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-vhosts/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-vhosts/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-vhosts/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/create-framework-project-zf1.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/reset-mysql-password.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/transfer-files-ftp.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-vhosts/image4.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image5.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image10.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image8.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image7.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image4.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image11.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/create-framework-project-zf2.pdf"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image6.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image2.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image3.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image5.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image4.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image1.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image9.png"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/configure-vhosts.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/troubleshoot-apache.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-sqlite.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-php-fcgi.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/install-wordpress.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/create-framework-project-zf1.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/reset-mysql-password.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/icons/folder.gif"
+New URL found by web_spider plugin: "http://10.0.0.139/icons/layout.gif"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/create-framework-project-zf2.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/use-different-php-version.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/transfer-files-ftp.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/send-mail.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/activate-use-xdebug.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/deploy-git-app.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/backup-restore-mysql.pdfmarks"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/"
+New URL found by web_spider plugin: "http://10.0.0.139/xampp/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/reset-mysql-password/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/use-different-php-version/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/deploy-git-app/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/use-sqlite/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/send-mail/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/access-phpmyadmin-remotely/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/use-php-fcgi/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/configure-vhosts/"
+New URL found by web_spider plugin: "http://10.0.0.139/icons/image2.gif"
+New URL found by web_spider plugin: "http://10.0.0.139/dashboard/docs/images/install-wordpress/image38.png"
+Found 194 URLs and 207 different injections points.
+The URL list is:
+- http://10.0.0.139/
+- http://10.0.0.139/applications.html
+- http://10.0.0.139/bitnami.css
+- http://10.0.0.139/dashboard/
+- http://10.0.0.139/dashboard/docs/
+- http://10.0.0.139/dashboard/docs/access-phpmyadmin-remotely.html
+- http://10.0.0.139/dashboard/docs/access-phpmyadmin-remotely.pdf
+- http://10.0.0.139/dashboard/docs/activate-use-xdebug.html
+- http://10.0.0.139/dashboard/docs/activate-use-xdebug.pdf
+- http://10.0.0.139/dashboard/docs/activate-use-xdebug.pdfmarks
+- http://10.0.0.139/dashboard/docs/backup-restore-mysql.html
+- http://10.0.0.139/dashboard/docs/backup-restore-mysql.pdf
+- http://10.0.0.139/dashboard/docs/backup-restore-mysql.pdfmarks
+- http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.html
+- http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.pdf
+- http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.pdfmarks
+- http://10.0.0.139/dashboard/docs/configure-vhosts.html
+- http://10.0.0.139/dashboard/docs/configure-vhosts.pdf
+- http://10.0.0.139/dashboard/docs/configure-vhosts.pdfmarks
+- http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.html
+- http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.pdf
+- http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.pdfmarks
+- http://10.0.0.139/dashboard/docs/create-framework-project-zf1.html
+- http://10.0.0.139/dashboard/docs/create-framework-project-zf1.pdf
+- http://10.0.0.139/dashboard/docs/create-framework-project-zf1.pdfmarks
+- http://10.0.0.139/dashboard/docs/create-framework-project-zf2.html
+- http://10.0.0.139/dashboard/docs/create-framework-project-zf2.pdf
+- http://10.0.0.139/dashboard/docs/create-framework-project-zf2.pdfmarks
+- http://10.0.0.139/dashboard/docs/deploy-git-app.html
+- http://10.0.0.139/dashboard/docs/deploy-git-app.pdf
+- http://10.0.0.139/dashboard/docs/deploy-git-app.pdfmarks
+- http://10.0.0.139/dashboard/docs/images/
+- http://10.0.0.139/dashboard/docs/images/access-phpmyadmin-remotely/
+- http://10.0.0.139/dashboard/docs/images/access-phpmyadmin-remotely/image1.png
+- http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/
+- http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image1.png
+- http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image2.png
+- http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image3.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image1.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image10.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image11.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image12.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image13.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image14.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image2.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image3.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image4.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image5.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image6.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image7.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image8.png
+- http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image9.png
+- http://10.0.0.139/dashboard/docs/images/configure-vhosts/
+- http://10.0.0.139/dashboard/docs/images/configure-vhosts/image1.png
+- http://10.0.0.139/dashboard/docs/images/configure-vhosts/image2.png
+- http://10.0.0.139/dashboard/docs/images/configure-vhosts/image3.png
+- http://10.0.0.139/dashboard/docs/images/configure-vhosts/image4.png
+- http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/
+- http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image1.png
+- http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image2.png
+- http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image3.png
+- http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image4.png
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/image1.png
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/image2.png
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image1.png
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image2.png
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image3.png
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image4.png
+- http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image5.png
+- http://10.0.0.139/dashboard/docs/images/deploy-git-app/
+- http://10.0.0.139/dashboard/docs/images/deploy-git-app/image1.png
+- http://10.0.0.139/dashboard/docs/images/deploy-git-app/image2.png
+- http://10.0.0.139/dashboard/docs/images/deploy-git-app/image3.png
+- http://10.0.0.139/dashboard/docs/images/deploy-git-app/image4.png
+- http://10.0.0.139/dashboard/docs/images/deploy-git-app/image5.png
+- http://10.0.0.139/dashboard/docs/images/deploy-git-app/image6.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image01.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image02.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image11.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image110.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image12.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image13.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image14.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image15.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image16.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image17.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image18.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image19.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image21.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image22.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image23.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image24.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image31.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image32.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image33.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image34.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image35.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image36.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image37.png
+- http://10.0.0.139/dashboard/docs/images/install-wordpress/image38.png
+- http://10.0.0.139/dashboard/docs/images/reset-mysql-password/
+- http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image1.png
+- http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image2.png
+- http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image3.png
+- http://10.0.0.139/dashboard/docs/images/send-mail/
+- http://10.0.0.139/dashboard/docs/images/send-mail/image1.png
+- http://10.0.0.139/dashboard/docs/images/send-mail/image2.png
+- http://10.0.0.139/dashboard/docs/images/send-mail/image3.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image1.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image10.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image11.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image2.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image3.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image4.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image5.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image6.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image7.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image8.png
+- http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image9.png
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image1.png
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image2.png
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image3.png
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image4.png
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image5.png
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image6.png
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image7.png
+- http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image8.png
+- http://10.0.0.139/dashboard/docs/images/use-different-php-version/
+- http://10.0.0.139/dashboard/docs/images/use-different-php-version/image1.png
+- http://10.0.0.139/dashboard/docs/images/use-php-fcgi/
+- http://10.0.0.139/dashboard/docs/images/use-php-fcgi/image1.png
+- http://10.0.0.139/dashboard/docs/images/use-sqlite/
+- http://10.0.0.139/dashboard/docs/images/use-sqlite/image1.png
+- http://10.0.0.139/dashboard/docs/images/use-sqlite/image2.png
+- http://10.0.0.139/dashboard/docs/images/use-sqlite/image3.png
+- http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.html
+- http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.pdf
+- http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.pdfmarks
+- http://10.0.0.139/dashboard/docs/install-wordpress.html
+- http://10.0.0.139/dashboard/docs/install-wordpress.pdf
+- http://10.0.0.139/dashboard/docs/install-wordpress.pdfmarks
+- http://10.0.0.139/dashboard/docs/reset-mysql-password.html
+- http://10.0.0.139/dashboard/docs/reset-mysql-password.pdf
+- http://10.0.0.139/dashboard/docs/reset-mysql-password.pdfmarks
+- http://10.0.0.139/dashboard/docs/send-mail.html
+- http://10.0.0.139/dashboard/docs/send-mail.pdf
+- http://10.0.0.139/dashboard/docs/send-mail.pdfmarks
+- http://10.0.0.139/dashboard/docs/transfer-files-ftp.html
+- http://10.0.0.139/dashboard/docs/transfer-files-ftp.pdf
+- http://10.0.0.139/dashboard/docs/transfer-files-ftp.pdfmarks
+- http://10.0.0.139/dashboard/docs/troubleshoot-apache.html
+- http://10.0.0.139/dashboard/docs/troubleshoot-apache.pdf
+- http://10.0.0.139/dashboard/docs/troubleshoot-apache.pdfmarks
+- http://10.0.0.139/dashboard/docs/use-different-php-version.html
+- http://10.0.0.139/dashboard/docs/use-different-php-version.pdf
+- http://10.0.0.139/dashboard/docs/use-different-php-version.pdfmarks
+- http://10.0.0.139/dashboard/docs/use-php-fcgi.html
+- http://10.0.0.139/dashboard/docs/use-php-fcgi.pdf
+- http://10.0.0.139/dashboard/docs/use-php-fcgi.pdfmarks
+- http://10.0.0.139/dashboard/docs/use-sqlite.html
+- http://10.0.0.139/dashboard/docs/use-sqlite.pdf
+- http://10.0.0.139/dashboard/docs/use-sqlite.pdfmarks
+- http://10.0.0.139/dashboard/faq.html
+- http://10.0.0.139/dashboard/howto.html
+- http://10.0.0.139/dashboard/images/bitnami-xampp.png
+- http://10.0.0.139/dashboard/images/fastly-logo.png
+- http://10.0.0.139/dashboard/images/favicon.png
+- http://10.0.0.139/dashboard/images/screenshots/xampp-windows-start.jpg
+- http://10.0.0.139/dashboard/images/xampp-logo.svg
+- http://10.0.0.139/dashboard/index.html
+- http://10.0.0.139/dashboard/javascripts/
+- http://10.0.0.139/dashboard/javascripts/all.js
+- http://10.0.0.139/dashboard/javascripts/modernizr.js
+- http://10.0.0.139/dashboard/phpinfo.php
+- http://10.0.0.139/dashboard/stylesheets/
+- http://10.0.0.139/dashboard/stylesheets/all-rtl.css
+- http://10.0.0.139/dashboard/stylesheets/all.css
+- http://10.0.0.139/dashboard/stylesheets/asciidoctor.css
+- http://10.0.0.139/dashboard/stylesheets/normalize.css
+- http://10.0.0.139/icons/back.gif
+- http://10.0.0.139/icons/blank.gif
+- http://10.0.0.139/icons/folder.gif
+- http://10.0.0.139/icons/image2.gif
+- http://10.0.0.139/icons/layout.gif
+- http://10.0.0.139/icons/text.gif
+- http://10.0.0.139/icons/unknown.gif
+- http://10.0.0.139/phpmyadmin/
+- http://10.0.0.139/xampp/
+The list of fuzzable requests is:
+- Method: GET | http://10.0.0.139/
+- Method: GET | http://10.0.0.139/
+- Method: GET | http://10.0.0.139/applications.html
+- Method: GET | http://10.0.0.139/bitnami.css
+- Method: GET | http://10.0.0.139/dashboard/
+- Method: GET | http://10.0.0.139/dashboard/docs/
+- Method: GET | http://10.0.0.139/dashboard/docs/access-phpmyadmin-remotely.html
+- Method: GET | http://10.0.0.139/dashboard/docs/access-phpmyadmin-remotely.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/activate-use-xdebug.html
+- Method: GET | http://10.0.0.139/dashboard/docs/activate-use-xdebug.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/activate-use-xdebug.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/backup-restore-mysql.html
+- Method: GET | http://10.0.0.139/dashboard/docs/backup-restore-mysql.html
+- Method: GET | http://10.0.0.139/dashboard/docs/backup-restore-mysql.html
+- Method: GET | http://10.0.0.139/dashboard/docs/backup-restore-mysql.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/backup-restore-mysql.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.html
+- Method: GET | http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/change-mysql-temp-dir.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/configure-vhosts.html
+- Method: GET | http://10.0.0.139/dashboard/docs/configure-vhosts.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/configure-vhosts.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.html
+- Method: GET | http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/configure-wildcard-subdomains.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/create-framework-project-zf1.html
+- Method: GET | http://10.0.0.139/dashboard/docs/create-framework-project-zf1.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/create-framework-project-zf1.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/create-framework-project-zf2.html
+- Method: GET | http://10.0.0.139/dashboard/docs/create-framework-project-zf2.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/create-framework-project-zf2.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/deploy-git-app.html
+- Method: GET | http://10.0.0.139/dashboard/docs/deploy-git-app.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/deploy-git-app.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/images/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/access-phpmyadmin-remotely/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/access-phpmyadmin-remotely/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/activate-use-xdebug/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image10.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image11.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image12.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image13.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image14.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image4.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image5.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image6.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image7.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image8.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/backup-restore-mysql/image9.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-vhosts/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-vhosts/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-vhosts/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-vhosts/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-vhosts/image4.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/configure-wildcard-subdomains/image4.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf1/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image4.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/create-framework-project-zf2/image5.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/deploy-git-app/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/deploy-git-app/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/deploy-git-app/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/deploy-git-app/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/deploy-git-app/image4.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/deploy-git-app/image5.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/deploy-git-app/image6.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image01.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image02.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image11.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image110.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image12.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image13.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image14.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image15.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image16.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image17.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image18.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image19.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image21.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image22.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image23.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image24.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image31.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image32.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image33.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image34.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image35.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image36.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image37.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/install-wordpress/image38.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/reset-mysql-password/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/reset-mysql-password/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/send-mail/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/send-mail/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/send-mail/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/send-mail/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image10.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image11.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image4.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image5.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image6.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image7.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image8.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/transfer-files-ftp/image9.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image4.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image5.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image6.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image7.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/troubleshoot-apache/image8.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/use-different-php-version/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/use-different-php-version/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/use-php-fcgi/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/use-php-fcgi/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/use-sqlite/
+- Method: GET | http://10.0.0.139/dashboard/docs/images/use-sqlite/image1.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/use-sqlite/image2.png
+- Method: GET | http://10.0.0.139/dashboard/docs/images/use-sqlite/image3.png
+- Method: GET | http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.html
+- Method: GET | http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/increase-php-file-upload-limit.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/install-wordpress.html
+- Method: GET | http://10.0.0.139/dashboard/docs/install-wordpress.html
+- Method: GET | http://10.0.0.139/dashboard/docs/install-wordpress.html
+- Method: GET | http://10.0.0.139/dashboard/docs/install-wordpress.html
+- Method: GET | http://10.0.0.139/dashboard/docs/install-wordpress.html
+- Method: GET | http://10.0.0.139/dashboard/docs/install-wordpress.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/install-wordpress.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/reset-mysql-password.html
+- Method: GET | http://10.0.0.139/dashboard/docs/reset-mysql-password.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/reset-mysql-password.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/send-mail.html
+- Method: GET | http://10.0.0.139/dashboard/docs/send-mail.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/send-mail.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/transfer-files-ftp.html
+- Method: GET | http://10.0.0.139/dashboard/docs/transfer-files-ftp.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/transfer-files-ftp.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.html
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.html
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.html
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.html
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.html
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.html
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.html
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/troubleshoot-apache.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/use-different-php-version.html
+- Method: GET | http://10.0.0.139/dashboard/docs/use-different-php-version.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/use-different-php-version.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/use-php-fcgi.html
+- Method: GET | http://10.0.0.139/dashboard/docs/use-php-fcgi.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/use-php-fcgi.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/docs/use-sqlite.html
+- Method: GET | http://10.0.0.139/dashboard/docs/use-sqlite.pdf
+- Method: GET | http://10.0.0.139/dashboard/docs/use-sqlite.pdfmarks
+- Method: GET | http://10.0.0.139/dashboard/faq.html
+- Method: GET | http://10.0.0.139/dashboard/howto.html
+- Method: GET | http://10.0.0.139/dashboard/images/bitnami-xampp.png
+- Method: GET | http://10.0.0.139/dashboard/images/fastly-logo.png
+- Method: GET | http://10.0.0.139/dashboard/images/favicon.png
+- Method: GET | http://10.0.0.139/dashboard/images/screenshots/xampp-windows-start.jpg
+- Method: GET | http://10.0.0.139/dashboard/images/xampp-logo.svg
+- Method: GET | http://10.0.0.139/dashboard/index.html
+- Method: GET | http://10.0.0.139/dashboard/javascripts/
+- Method: GET | http://10.0.0.139/dashboard/javascripts/all.js
+- Method: GET | http://10.0.0.139/dashboard/javascripts/modernizr.js
+- Method: GET | http://10.0.0.139/dashboard/phpinfo.php
+- Method: GET | http://10.0.0.139/dashboard/stylesheets/
+- Method: GET | http://10.0.0.139/dashboard/stylesheets/all-rtl.css
+- Method: GET | http://10.0.0.139/dashboard/stylesheets/all.css
+- Method: GET | http://10.0.0.139/dashboard/stylesheets/asciidoctor.css
+- Method: GET | http://10.0.0.139/dashboard/stylesheets/normalize.css
+- Method: GET | http://10.0.0.139/icons/back.gif
+- Method: GET | http://10.0.0.139/icons/blank.gif
+- Method: GET | http://10.0.0.139/icons/folder.gif
+- Method: GET | http://10.0.0.139/icons/image2.gif
+- Method: GET | http://10.0.0.139/icons/layout.gif
+- Method: GET | http://10.0.0.139/icons/text.gif
+- Method: GET | http://10.0.0.139/icons/unknown.gif
+- Method: GET | http://10.0.0.139/phpmyadmin/
+- Method: GET | http://10.0.0.139/xampp/
+Scan finished in 12 seconds.
+Stopping the core...
+[34mw3af>>> [0mexit
+[34mw3af>>> [0m
+got shell?
+

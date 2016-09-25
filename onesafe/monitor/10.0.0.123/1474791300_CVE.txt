@@ -1,0 +1,130 @@
+Visual C++ Library PGO 14.0
+VisualStudio JavaScript Language Service 14.0
+MSBuild NuGet Integration  14.0
+CCC Help Norwegian 2015.0715
+Visual C++ IDE Common 14.0
+Visual Studio Community  14.0
+CCC Help Spanish 2015.0715
+VMware vSphere Client  6.0
+Python Tools  2.2
+CCC Help Polish 2015.0715
+Azure Mobile Services Tools 1.4
+Agents for Visual Studio 14.0
+VS Update core components 14.0
+Visual C++ MSBuild X64 14.0
+Visual C++ Professional Templates 14.0
+Visual Studio Enterprise  14.0
+Visual C++ IDE Optional 14.0
+Tools for .Net  3.11
+vs_update3notification 14.0
+Visual Studio Premium  14.0
+Windows XP Targeting with 11.0
+CCC Help Chinese Traditional 2015.0715
+Windows Software Development Kit 8.100
+WCF Data Services Tools 5.6
+VisualStudio JavaScript Project System 14.0
+Catalyst Control Center Graphics 2015.0715
+Visual C++ Library ATL 14.0
+Universal CRT Redistributable 10.0
+CCC Help Korean 2015.0715
+CCC Help Japanese 2015.0715
+Azure AD Authentication Connected 14.0
+Office Remote 1.1
+Visual Studio Graphics Analyzer 14.0
+CCC Help Thai 2015.0715
+PX Profile Update 1.00
+Universal CRT Extension SDK 10.0
+Visual Studio Team Foundation 14.98
+Visual C++ Professional Items 14.0
+CCC Help Hungarian 2015.0715
+Catalyst Control Center - 1.00
+AMD Catalyst Install Manager 8.0
+.NET Framework 4 Multi-Targeting 4.0
+Python Launcher 3.5
+Universal CRT Headers Libraries 10.0
+Dotfuscator and Analytics Community 5.22
+Web Deploy  3.1238
+Visual Studio  14.0
+CCC Help Finnish 2015.0715
+Visual Studio Connected Services 14.0
+Visual C++ Library CRT 14.0
+PuTTY 0.67
+SQL Server Compact  4.0
+TypeScript Power Tool 1.8
+CCC Help Czech 2015.0715
+Universal CRT Tools x86 10.0
+CCC Help Russian 2015.0715
+Visual C++ CRT Headers 14.0
+Visual C++ IDE Professional 14.0
+Build Tools Language Resources 14.0
+AzureTools.Notifications 2.7
+CCC Help English 2015.0715
+Visual C++ Compiler Tools X86 14.0
+Google Update Helper 1.3
+Azure Storage Connected Service 14.0
+CCC Help Chinese Standard 2015.0715
+Help Viewer  2.2
+Visual C++ MFC Items 14.0
+CCC Help German 2015.0715
+Build Tools  14.0
+PreEmptive Analytics Visual Studio 1.2
+Adobe Acrobat Reader DC 15.017
+WCF Data Services  5.6
+CCC Help Dutch 2015.0715
+Multi-Device Hybrid Apps using 14.0
+Windows Runtime Intellisense Content 8.100
+Visual C++ IDE Debugger 14.0
+Visual C++ MSBuild ARM 14.0
+CCC Help Danish 2015.0715
+Dropbox Update Helper 1.3
+Expression Blend SDK for 2.0
+Office 16 Click-to-Run Localization 16.0
+Visual C++ MSBuild X86 14.0
+Visual C++ IDE x64 14.0
+VMware Workstation 12.5
+CCC Help Italian 2015.0715
+CCC Help Swedish 2015.0715
+Visual C++ IDE Desktop 14.0
+System CLR Types for 12.0
+Windows App Certification Kit 8.100
+Visual C++ Compiler Tools X64 14.0
+Visual C++ IDE Core 14.0
+Visual C++ Compiler Tools Premium 14.0
+Test Tools for Visual 14.0
+Office 16 Click-to-Run Licensing 16.0
+Azure Shared Components for 1.8
+Python  2.7 CVE-2016-2183, CVE-2014-9365, CVE-2014-7185, CVE-2014-1912, CVE-2013-7040, CVE-2013-4238, CVE-2012-1150, CVE-2012-0845, CVE-2011-4944, CVE-2011-4940, CVE-2011-1521, CVE-2010-3493, CVE-2010-3492, CVE-2010-2089, CVE-2010-1634,
+Azure Mobile Services Connected 14.0
+Microsoft.VisualStudio.Office 1.6
+SQL Server  12.0
+Visual C++  9.0
+Azure Mobile Services SDK 2.0
+CCC Help Turkish 2015.0715
+Visual J#  2.0
+7-Zip  16.02
+Silverlight 5.1
+Office 16 Click-to-Run Extensibility 16.0
+Windows Espc Package 14.0
+Visual C++ IDE Windows 14.0
+CCC Help Greek 2015.0715
+Visual Studio Services Hub 1.0
+Visual Studio Professional  14.0
+Roslyn Language Services - 14.0
+Universal CRT Tools x64 10.0
+Team Explorer for Visual 14.102
+TypeScript Tools for Visual 1.8
+Portable Library Multi-Targeting Pack 14.0
+CCC Help French 2015.0715
+.NET Framework  4.6 CVE-2016-3255, CVE-2016-0149, CVE-2016-0148, CVE-2016-0132, CVE-2016-0047, CVE-2016-0033, CVE-2015-6108, CVE-2015-6099, CVE-2015-6096, CVE-2015-2526, CVE-2015-2504, CVE-2015-2481, CVE-2015-2480, CVE-2015-2479, CVE-2015-2464, CVE-2015-2463, CVE-2015-2462, CVE-2015-2460, CVE-2015-2456, CVE-2015-2455,
+Visual C++ IDE Base 14.0
+CCC Help Portuguese 2015.0715
+Application Insights Tools for
+Oracle VM VirtualBox  5.0
+Blend for Visual Studio 14.0
+AMD Catalyst Control Center 2015.0715
+Windows Espc Resource Package 14.0
+.NET Core  1.0
+NuGet - Visual Studio 3.4
+Visual C++ Library MFC 14.0
+Visual C++ MSBuild Base 14.0
+Catalyst Control Center Localization 2015.0715
